@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:orientation="vertical">
 
     <TextView
-            android:id="@+id/strategy"
+            android:id="@+id/change_conditions_using_custom_observer"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="Strategy Pattern"/>
+            android:text="1. Current Conditions Display using custom observer"/>
 
     <TextView
-            android:id="@+id/observer"
+            android:id="@+id/change_conditions_using_java_util"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="Observer Pattern!"/>
+            android:text="2. Current Conditions Display using java.util"/>
 </LinearLayout>

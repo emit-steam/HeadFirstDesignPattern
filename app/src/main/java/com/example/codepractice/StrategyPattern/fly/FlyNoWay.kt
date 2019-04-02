@@ -1,7 +1,6 @@
 package com.example.codepractice.StrategyPattern.fly
 
 import com.orhanobut.logger.Logger
-import timber.log.Timber
 
 class FlyNoWay: FlyBehavior {
     override fun fly() {

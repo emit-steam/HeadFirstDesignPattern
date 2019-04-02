@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".StrategyPattern.DuckActivity"/>
+        <activity android:name=".ObserverPattern.WeatherStationActivity"/>
     </application>
 
 </manifest>
