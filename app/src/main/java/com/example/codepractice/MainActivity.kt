@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.codepractice.DecoratorPattern.StarBuzzCoffeeActivity
 import com.example.codepractice.ObserverPattern.WeatherStationActivity
 import com.example.codepractice.StrategyPattern.DuckActivity
 import com.example.codepractice.StrategyPattern.duck.MallardDuck
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val strategy = findViewById<TextView>(R.id.strategy)
         val observer = findViewById<TextView>(R.id.observer)
+        val decorator = findViewById<TextView>(R.id.decorator)
 
         strategy.setOnClickListener {
             val intent = Intent(this, DuckActivity::class.java)
@@ -29,6 +31,11 @@ class MainActivity : AppCompatActivity() {
 
         observer.setOnClickListener {
             val intent = Intent(this, WeatherStationActivity::class.java)
+            startActivity(intent)
+        }
+
+        decorator.setOnClickListener {
+            val intent = Intent(this, StarBuzzCoffeeActivity::class.java)
             startActivity(intent)
         }
     }

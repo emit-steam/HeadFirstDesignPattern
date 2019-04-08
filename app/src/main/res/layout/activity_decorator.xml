@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:orientation="vertical">
 
     <TextView
-            android:id="@+id/strategy"
+            android:id="@+id/order_espresso"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="Strategy Pattern"/>
+            android:text="1. Order Espresso Coffee"/>
 
     <TextView
-            android:id="@+id/observer"
+            android:id="@+id/order_dark_roast"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="Observer Pattern!"/>
+            android:text="2. Order DarkRoast Coffee + 2 Mocha + 1 Whip"/>
 
     <TextView
-            android:id="@+id/decorator"
+            android:id="@+id/order_house_blend"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="Decorator Pattern!"/>
+            android:text="3. Order HouseBlend Coffee + 1 Soy + 1 Mocha + 1 Whip"/>
 </LinearLayout>
