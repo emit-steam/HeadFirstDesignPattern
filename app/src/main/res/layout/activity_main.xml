@@ -24,4 +24,22 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Decorator Pattern!"/>
+
+    <TextView
+            android:id="@+id/dagger_exam1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Dagger2 exam 1!"/>
+
+    <TextView
+            android:id="@+id/dagger_exam2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Dagger2 exam 2!"/>
+
+    <TextView
+            android:id="@+id/dagger_exam3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Dagger2 exam 3!"/>
 </LinearLayout>

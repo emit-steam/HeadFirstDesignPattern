@@ -19,6 +19,9 @@
         <activity android:name=".StrategyPattern.DuckActivity"/>
         <activity android:name=".ObserverPattern.WeatherStationActivity"/>
         <activity android:name=".DecoratorPattern.StarBuzzCoffeeActivity"/>
+        <activity android:name=".Dagger2.DaggerExam1Activity"/>
+        <activity android:name=".Dagger2.DaggerExam2Activity"/>
+        <activity android:name=".Dagger2.DaggerExam3Activity"/>
     </application>
 
 </manifest>
